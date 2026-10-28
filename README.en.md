@@ -2,7 +2,7 @@
 
 A local macOS GIF-to-HEVC converter with animated previews, batch jobs and HEVC Alpha MOV output.
 
-[简体中文](README.md) · [Preview release](https://github.com/asdasdgsn/PHIBALoop/releases/tag/v1.0.0) · [Development guide](docs/DEVELOPMENT.md)
+[简体中文](README.md) · [Preview release](https://github.com/asdasdgsn/PHIBALoop/releases/tag/v1.0.1) · [Development guide](docs/DEVELOPMENT.md)
 
 ## Features
 
@@ -20,7 +20,7 @@ The deployment target is macOS 13. The current prebuilt DMG targets **Apple Sili
 
 The preview binary is **ad-hoc signed and not Apple-notarized**. macOS may block it. For a trusted public distribution, Developer ID signing and notarization are still required. Building from source is an alternative.
 
-Download the DMG from [v1.0.0](https://github.com/asdasdgsn/PHIBALoop/releases/tag/v1.0.0), then drag the app into Applications.
+Download the DMG from [v1.0.1](https://github.com/asdasdgsn/PHIBALoop/releases/tag/v1.0.1), then drag the app into Applications.
 
 ## Build and test
 

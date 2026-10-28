@@ -2,7 +2,7 @@
 
 **把 GIF 动画转换成适合应用与创作使用的 HEVC 视频，支持透明 MOV。**
 
-[English](README.en.md) · [下载预览版](https://github.com/asdasdgsn/PHIBALoop/releases/tag/v1.0.0) · [使用指南](docs/USER_GUIDE.md) · [开发与打包](docs/DEVELOPMENT.md) · [更新日志](CHANGELOG.md)
+[English](README.en.md) · [下载预览版](https://github.com/asdasdgsn/PHIBALoop/releases/tag/v1.0.1) · [使用指南](docs/USER_GUIDE.md) · [开发与打包](docs/DEVELOPMENT.md) · [更新日志](CHANGELOG.md)
 
 PHIBALoop 是使用 SwiftUI、AppKit、ImageIO 和 AVFoundation 编写的 macOS 本地转换工具。不需要账户、API 密钥、FFmpeg 或第三方 Swift 包；媒体处理在本机完成，应用代码不包含网络上传或遥测逻辑。
 
@@ -25,7 +25,7 @@ PHIBALoop 是使用 SwiftUI、AppKit、ImageIO 和 AVFoundation 编写的 macOS 
 - Intel Mac 可尝试源码构建，但尚未验证；HEVC、尤其 HEVC Alpha 的编码可用性取决于设备及系统。
 - 当前安装包为**本地临时签名、未经过 Apple 公证的预览版**，系统可能阻止直接打开。需要可公开信任的分发包时，应由维护者完成 Developer ID 签名及公证；也可以自行从源码构建。
 
-从 [v1.0.0 Releases](https://github.com/asdasdgsn/PHIBALoop/releases/tag/v1.0.0) 下载 DMG，打开后将 `PHIBALoop.app` 拖入“应用程序”。请同时阅读该版本的签名状态说明。
+从 [v1.0.1 Releases](https://github.com/asdasdgsn/PHIBALoop/releases/tag/v1.0.1) 下载 DMG，打开后将 `PHIBALoop.app` 拖入“应用程序”。请同时阅读该版本的签名状态说明。
 
 ## 快速使用
 
