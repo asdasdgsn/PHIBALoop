@@ -1,0 +1,28 @@
+name: Bug report / 问题反馈
+description: Report a reproducible problem without sharing private media.
+body:
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment / 环境
+      description: macOS version, Mac chip, and PHIBALoop version or commit.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps and settings / 步骤与参数
+      description: Include output format, transparency mode, size, frame rate and repeat count.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected and actual result / 预期与实际结果
+    validations:
+      required: true
+  - type: textarea
+    id: sample
+    attributes:
+      label: Sample and logs / 示例与日志
+      description: Share only media you have permission to publish. Remove personal paths and credentials.

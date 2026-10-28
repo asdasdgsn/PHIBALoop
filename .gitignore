@@ -1,0 +1,16 @@
+.build/
+dist/
+.DS_Store
+.swiftpm/
+*.dmg
+*.zip
+*.pkg
+*.xcarchive/
+*.dSYM/
+.env
+.env.*
+!.env.example
+*.p12
+*.p8
+*.mobileprovision
+*.xcconfig.local
